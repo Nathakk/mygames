@@ -1,0 +1,90 @@
+body{   
+  background: linear-gradient(300deg, #f135d2, #c5bacc, #875ba3);
+  background-size: 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container{
+  font-family: Kanit;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+.title{
+  font-family: Kanit;
+  font-size: 5rem;
+  color: #1d0b34;
+  padding-top: 50px;
+  text-align: center;
+}
+#box{ 
+text-align: center;
+justify-content: center;
+height: 50px;
+margin: 0px 10px 10px 10px;
+font-family: Kanit;
+
+}
+#box2{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  justify-content: center;
+  font-family: Kanit;
+ 
+}
+input{
+  border-radius: 500px;
+  height: 50px;
+  width: 100px;
+  margin: 30px;
+  text-align: center;
+  justify-content: center;
+  font-family: Kanit;
+}
+.option{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.answer{
+  display: flex;
+  justify-content: center;
+}
+.start{
+  display: flex;
+  justify-content: center;
+}
+.result{
+  border-radius: 500px;
+  display: flex;
+  background-color: rgb(51, 25, 57);
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  /*border: 1px solid black;*/
+  text-align: center;
+  height: 100px;
+  width: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-family: Kanit;
+}
+.score {
+  font-family: Kanit;
+  font-size: 2rem;
+  color: rgb(51, 25, 60);
+}
